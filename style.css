@@ -1,15 +1,15 @@
-/* General page setup */
+
 body {
   font-family: Arial, sans-serif;
-  background: #f6fef8; /* light green-white */
+  background: #f6fef8; 
   color: #111;
   margin: 0;
   padding: 0;
 }
 
-/* Header */
+
 header {
-  background: #16a34a; /* green */
+  background: #16a34a; 
   color: white;
   text-align: center;
   padding: 30px 20px;
@@ -25,14 +25,14 @@ header .subtitle {
   margin-top: 10px;
 }
 
-/* Main container */
+
 .container {
   max-width: 700px;
   margin: 40px auto;
   padding: 0 20px;
 }
 
-/* Cards */
+
 .card {
   background: white;
   padding: 25px;
@@ -41,13 +41,77 @@ header .subtitle {
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
-/* Lists inside cards */
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+}
+
+
+.circle-button {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #16a34a;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  line-height: 120px;
+  transition: transform 0.2s;
+}
+
+.circle-button:hover {
+  background: #15803d;
+  transform: scale(1.05);
+}
+
+
+.button-container {
+  text-align: center;
+  margin: 25px 0;
+}
+
+
+.result-card {
+  background: white;
+  padding: 25px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+#result {
+  font-size: 32px;
+  font-weight: bold;
+  color: #16a34a;
+}
+
 .card ul {
   text-align: left;
   padding-left: 20px;
 }
 
-/* Footer */
+
 footer {
   text-align: center;
   padding: 15px;
