@@ -16,36 +16,41 @@
     <div class="card">
       <h2>Calculator</h2>
       <p>This is where info will go</p>
+    
+     <main class="container">
+  <div class="card">
+    <h2>Calculator</h2>
 
-      <!-- Example inputs -->
+
+    <div class="input-group">
       <label>Filing As</label>
-      <select id="Filing As">
-        <option value="1">Single</option>
-        <option value="1.2">Married</option>
-      </select>
-      
-      <label>Number of Adults</label>
-      <input type="number" id="people" placeholder="e.g. 2">
-      
-      <label>Number of Kids</label>
-      <input type="number" id="people" placeholder="e.g. 0">
-      
-      <label>AC Usage</label>
-      <select id="ac">
-        <option value="1">Low</option>
-        <option value="1.2">Medium</option>
-        <option value="1.5">High</option>
-      </select>
-
-      <button onclick="calculate()">Calculate</button>
-
-      <div class="result-card">
-        <h2>Estimated Monthly Cost</h2>
-        <p id="result">$0</p>
-      </div>
+      <input type="text" id="filing" placeholder="Single / Married / etc.">
     </div>
-  </main>
 
+
+    <div class="input-group">
+      <label>Number of Adults</label>
+      <input type="number" id="adults" placeholder="e.g. 2">
+    </div>
+
+
+    <div class="input-group">
+      <label>Number of Kids</label>
+      <input type="number" id="kids" placeholder="e.g. 1">
+    </div>
+
+    <!-- Calculate Button -->
+    <div class="button-container">
+      <button class="circle-button" onclick="calculate()">Calculate</button>
+    </div>
+
+    <!-- Result -->
+    <div class="result-card">
+      <h2>Estimated Monthly Cost</h2>
+      <p id="result">$0</p>
+    </div>
+  </div>
+</main>
   <footer>
     <p>&copy; 2026 Project Bill Plot</p>
   </footer>
