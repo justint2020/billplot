@@ -94,8 +94,12 @@ header .subtitle {
   justify-content: center;
   align-items: center;
 
-  text-align: center;
+  text-decoration: none;
   transition: transform 0.2s;
+}
+
+.homepage-calc-button:hover {
+  transform: scale(1.05);
 }
 
 .circle-button:hover {
