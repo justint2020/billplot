@@ -80,18 +80,21 @@ header .subtitle {
 }
 
 .homepage-calc-button {
-  width: 120px;
+  width: 240px;
   height: 120px;
-  border-radius: 0%;
+  border-radius: 20px;
   background: #16a34a;
   color: white;
   font-size: 20px;
   font-weight: bold;
   border: none;
   cursor: pointer;
-  display: inline-block;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   text-align: center;
-  line-height: 120px;
   transition: transform 0.2s;
 }
 
